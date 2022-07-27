@@ -321,7 +321,7 @@ body .h1 {
   display: block;
   margin-top: 3rem;
   margin-bottom: 1rem;
-  color: #cc2a41;
+  color: #039;
   letter-spacing: 0.01em;
   font-weight: 700;
   font-style: normal;
@@ -335,14 +335,14 @@ body .h2 {
   display: block;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color: rgba(86,124,119,0.8);
+  color: #3c6f85;
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
   font-size: 1rem;
 }
 body h3 {
-  color: rgba(86,124,119,0.8);
+  color: #3c6f85;
   text-decoration: underline;
   font-weight: bold;
   font-size: 0.9rem;
@@ -352,7 +352,7 @@ body h5,
 body h6 {
   display: inline;
   text-decoration: none;
-  color: #666;
+  color: #4b2a63;
   font-weight: bold;
   font-size: 0.9rem;
 }
@@ -364,7 +364,7 @@ body h6 {
   margin-bottom: 0.5rem;
 }
 body hr {
-  border: 0.5px dashed #666;
+  border: 0.5px dashed #4b2a63;
   opacity: 0.5;
   margin: 0;
   margin-top: 20px;
@@ -426,7 +426,7 @@ body table {
 body th {
   padding: 8px;
   border-bottom: 1px dashed #666;
-  color: rgba(86,124,119,0.8);
+  color: #3c6f85;
   font-weight: bold;
   font-size: 13px;
 }
@@ -436,8 +436,8 @@ body td {
 }
 @font-face {
   font-style: normal;
-  font-family: "Meslo LG";
-  src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
+  font-family: "Mukta";
+  src: local("Meslo LG S"), url("../lib/mukta/Mukta-Regular.ttf") format("truetype");
 }
 *,
 *:before,
@@ -483,7 +483,7 @@ body {
   font-display: swap;
   font-weight: 400;
   font-size: 14px;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Mukta", "Mukta", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;
   flex: 1;
@@ -603,8 +603,8 @@ body {
   letter-spacing: 0.01em;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 2.2rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -626,7 +626,7 @@ body {
   -webkit-filter: grayscale(100%);
 }
 #header #nav {
-  color: #cc2a41;
+  color: #039;
   letter-spacing: 0.01em;
   font-weight: 200;
   font-style: normal;
@@ -639,20 +639,21 @@ body {
   line-height: 15px;
 }
 #header #nav ul a {
-  margin-right: 15px;
-  color: #cc2a41;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #039;
 }
 #header #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41);
+  background-image: linear-gradient(transparent, transparent 5px, #039 5px, #039);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
 }
 #header #nav ul li {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 0px;
   border-right: 1px dotted;
-  border-color: #cc2a41;
+  border-color: #039;
   vertical-align: middle;
 }
 #header #nav ul .icon {
@@ -743,7 +744,7 @@ body {
   margin-left: 15px;
 }
 #header-post #menu-icon:hover {
-  color: #cc2a41;
+  color: #039;
 }
 #header-post #menu-icon-tablet {
   float: right;
@@ -751,7 +752,7 @@ body {
   margin-left: 15px;
 }
 #header-post #menu-icon-tablet:hover {
-  color: #cc2a41;
+  color: #039;
 }
 #header-post #top-icon-tablet {
   position: fixed;
@@ -761,17 +762,17 @@ body {
   margin-left: 15px;
 }
 #header-post #top-icon-tablet:hover {
-  color: #cc2a41;
+  color: #039;
 }
 #header-post .active {
-  color: #cc2a41;
+  color: #039;
 }
 #header-post #menu {
   display: none;
   margin-right: 2rem;
 }
 #header-post #nav {
-  color: #cc2a41;
+  color: #039;
   letter-spacing: 0.01em;
   font-weight: 200;
   font-style: normal;
@@ -782,16 +783,16 @@ body {
 }
 #header-post #nav ul a {
   margin-right: 15px;
-  color: #cc2a41;
+  color: #039;
 }
 #header-post #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41);
+  background-image: linear-gradient(transparent, transparent 5px, #039 5px, #039);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
 }
 #header-post #nav ul li {
-  border-right: 1px dotted #cc2a41;
+  border-right: 1px dotted #039;
 }
 #header-post #nav ul li:last-child {
   margin-right: 0;
@@ -845,7 +846,7 @@ body {
   font-size: 0.8rem;
 }
 #header-post #toc .toc-level-2:before {
-  color: #cc2a41;
+  color: #039;
   content: "#";
 }
 #header-post #toc .toc-level-3 {
@@ -943,11 +944,11 @@ body {
   text-align: center;
 }
 #footer-post #nav-footer a {
-  color: #cc2a41;
+  color: #039;
   font-size: 1em;
 }
 #footer-post #nav-footer a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41);
+  background-image: linear-gradient(transparent, transparent 5px, #039 5px, #039);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -978,7 +979,7 @@ body {
 #footer-post #actions-footer a {
   display: inline-block;
   padding-left: 1rem;
-  color: #cc2a41;
+  color: #039;
 }
 #footer-post #share-footer {
   padding-right: 1rem;
@@ -1025,7 +1026,7 @@ body {
   font-size: 0.8rem;
 }
 #footer-post #toc-footer .toc-level-2:before {
-  color: #cc2a41;
+  color: #039;
   content: "#";
 }
 #footer-post #toc-footer .toc-level-3 {
@@ -1096,7 +1097,7 @@ article header .meta {
   margin-bottom: 1rem;
 }
 article header .meta * {
-  color: #666;
+  color: #4b2a63;
   font-size: 0.85rem;
 }
 article header .author {
@@ -1111,7 +1112,7 @@ article .content h2:before {
   position: absolute;
   top: -4px;
   left: -1rem;
-  color: #cc2a41;
+  color: #039;
   content: "#";
   font-weight: bold;
   font-size: 1.2rem;
@@ -1143,7 +1144,7 @@ article .content blockquote {
   margin: 1rem 10px;
   padding: 0.5em 10px;
   background: inherit;
-  color: #cc2a41;
+  color: #006b99;
   quotes: "\201C" "\201D" "\2018" "\2019";
   font-weight: bold;
 }
@@ -1152,7 +1153,7 @@ article .content blockquote p {
 }
 article .content blockquote:before {
   margin-right: 0.25em;
-  color: #cc2a41;
+  color: #006b99;
   content: "\201C";
   vertical-align: -0.4em;
   font-size: 2em;
@@ -1340,13 +1341,13 @@ article .content .caption {
   background-image: none;
 }
 .pagination a:hover:not(.active) {
-  color: rgba(86,124,119,0.8);
+  color: #3c6f85;
 }
 .search-input {
   padding: 4px 7px;
   width: 100%;
   outline: none;
-  border: solid 1px #666;
+  border: solid 1px #4b2a63;
   border-radius: 5px;
   background-color: #fafafa;
   color: #22272a;
@@ -1355,7 +1356,7 @@ article .content .caption {
   -moz-border-radius: 5px;
 }
 .search-input:focus {
-  border: solid 1px #cc2a41;
+  border: solid 1px #039;
 }
 #search-result ul.search-result-list {
   padding: 0;
@@ -1412,7 +1413,7 @@ article .content .caption {
   font-display: swap;
   font-weight: 400;
   font-size: 11.200000000000001px;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Mukta", "Mukta", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;
   text-align: center;
@@ -1593,7 +1594,7 @@ pre {
   border: 1px dotted #666;
   border-radius: 4px;
   font-size: 13px;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Mukta", "Mukta", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1614,7 +1615,7 @@ code {
   padding: 10px 15px;
   border-radius: 4px;
   background: #f5f5f5;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Mukta", "Mukta", monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
@@ -1654,7 +1655,7 @@ code {
   transition: opacity 0.2s ease-in;
 }
 .highlight .btn-copy:hover {
-  color: #cc2a41;
+  color: #039;
 }
 .highlight pre {
   margin: 0;
